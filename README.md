@@ -1,6 +1,6 @@
 # Viridis colour palette for Isatis #
 
-The Python 2D plotting library `matplotlib` changed its default colour palette from a rainbow-based scheme called 'jet' to a new scheme called 'viridis'. Viridis was designed to be:
+The Python 2D plotting library [`matplotlib`](http://matplotlib.org/) changed its default colour palette from a rainbow-based scheme called 'jet' to a new scheme called 'viridis'. Viridis was designed to be:
 
 - Perceptually uniform: no particular colour 'stands out' more than any other. This is important in scientific visualization to prevent artificial patterns or trends appearing in the data because one colour is more apparent to the human eye than another.
 - Printable in grey-scale: if the colour palette happens to be printed or photocopied in grey-scale the highs and lows can still be identified. It is perceptually uniform in grey-scale as it is in colour.
