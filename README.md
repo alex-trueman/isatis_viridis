@@ -12,6 +12,6 @@ I have created a series of viridis [palettes](https://github.com/alexmtrueman/is
 
 During the development of viridis three other colour scales were developed that have a more red appearance. I have included on of these "option c" in this reporitory. 
 
-The palette files are in the ASCII export format used by Isatis. To import the palette go to `File->Color palettes...` and select `Import...` to import the ASCII file. You can now create viridis-based colour scales for visualising data.
+The palette files are in the ASCII export format used by Isatis. To import the palette go to `File->Color palettes...` and select `Import...` to import the ASCII file. You can now create viridis-based colour scales for visualising data. Alternatively run the journal file included in this repository making sure that you modify the path variable.
 
 If you are used to using rainbow colour palettes it can take a bit of getting used to a palette like viridis; however, I think after a while you will agree that it is superior.
