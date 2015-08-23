@@ -1,13 +1,13 @@
 #@description: Import ASCII-format palette files into Isatis study.
 #@author: Alex Trueman
-#@date:2015-08-23
+#@date: 2015-08-23
 
 # Absolute path to the palette files.
-%var path = d:/Dropbox/_system/isatis/legends
+%var path = d:/dropbox/_system/isatis/legends
 
 # Names of the palettes.
-%var palettes[] = option_c_032,option_c_064,option_c_128,option_c_256
-%var palettes[] += veridis_032,veridis_064,veridis_128,veridis_256
+%var palettes[] = option_c_032, option_c_064, option_c_128, option_c_256
+%var palettes[] += veridis_032, veridis_064, veridis_128, veridis_256
 
 # Import the palettes.
 %loop i = 1 to $#palettes step 1
