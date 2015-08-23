@@ -8,7 +8,7 @@ The Python 2D plotting library [`matplotlib`](http://matplotlib.org/) changed it
 
 In these three areas the new palette is superior to traditional rainbow-based palettes. You can read more about [viridis](http://bids.github.io/colormap/) or watch the [presentation](https://youtu.be/xAoljeRJ3lU), which has an interesting discussion of the theory.
 
-I have created a series of viridis [palettes](https://github.com/alexmtrueman/isatis_viridis) for [Isatis](http://www.geovariances.com/en/isatis-all-in-one-software-for-geostatistics-ru324). There are several palttes with different numbers of colour levels (some Isatis processes may have difficultly with high numbers of levels). The 128-level palette should work in most instances but switch to 64 or 32-level palettes if you have trouble.
+I have created a series of viridis palettes for [Isatis](http://www.geovariances.com/en/isatis-all-in-one-software-for-geostatistics-ru324). There are several palttes with different numbers of colour levels (some Isatis processes may have difficultly with high numbers of levels). The 128-level palette should work in most instances but switch to 64 or 32-level palettes if you have trouble.
 
 During the development of viridis three other colour scales were developed that have a more red appearance. I have included one of these "option c" in this reporitory. 
 
