@@ -6,17 +6,19 @@
 %var path = d:/dropbox/_system/isatis/legends
 
 # Names of the palettes.
-%var palettes[] = option_c_032, option_c_064, option_c_128, option_c_256
-%var palettes[] += veridis_032, veridis_064, veridis_128, veridis_256
+%var palette[] = inferno, magma, plasma, viridis
+%var level[] += _032, _064, _128, _256
 
 # Import the palettes.
-%loop i = 1 to $#palettes step 1
+%loop i = 1 to $#palette step 1
+%loop j = 1 to $#level step 1
  ******* Bulletin Name *******          =B= Palettes
  ***** Bulletin Version ******          =N= 320
- Palette Name                           =A= $palettes[$i]
+ Palette Name                           =A= $palette[$i]$level[$j]
  N Colors                               =N= 9
  From Palette Name                      =A= Basic Colors [READONLY]
  Export Palette Name                    =A= None
- Import Palette Name                    =A= $path/$palettes[$i].pal
+ Import Palette Name                    =A= $path/$palette[$i]$level[$j].pal
  Option                                 =A= Import
+%endloop
 %endloop
