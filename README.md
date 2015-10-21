@@ -12,7 +12,9 @@ I have created a series of viridis palettes for [Isatis](http://www.geovariances
 
 During the development of viridis three other colour scales were developed that have a warmer appearance. I have included palettes for these three scales: inferno, magama, and plasma.
 
-![Inferno, magma, plasma, and viridis, respectively (from politiken-journalism)](https://github.com/politiken-journalism/scale-color-perceptual/blob/master/example/example.png?raw=true)
+<img src="https://github.com/politiken-journalism/scale-color-perceptual/blob/master/example/example.png?raw=true" alt="Inferno, magma, plasma, and viridis, respectively (from politiken-journalism)" width="500px">
+
+**Inferno, magma, plasma, and viridis, respectively** -- *from [politiken-journalism](https://github.com/politiken-journalism/scale-color-perceptual.git)*
 
 The palette files are in the text file export format used by Isatis. To import the palette go to `File->Color palettes...` and select `Import...` to import the ASCII file. You can now create viridis-based colour scales for visualising data. Alternatively run the journal file included in this repository ([journals folder](https://github.com/amt4158/isatis_viridis/tree/master/journals)) making sure that you modify the path variable.
 
