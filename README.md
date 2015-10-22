@@ -20,4 +20,4 @@ The palette files are in the text file export format used by Isatis. To import t
 
 I have also included an R script for generating the colour scales in case you would like to modify what I have done. This script is a bit of a hack based on the work of Simon Garnier (and others), who created the [viridis package](https://github.com/sjmgarnier/viridis.git) for R.
 
-If you are used to using rainbow colour palettes it can take a bit of getting used to a palette like viridis; however, I think after a while you will agree that it is superior.
+If you are acustomed to using rainbow colour palettes it can take a bit of getting used to a palette like viridis; however, I think after a while you will agree that it is superior.
